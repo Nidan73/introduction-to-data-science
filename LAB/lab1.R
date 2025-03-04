@@ -35,9 +35,15 @@ paste0(a,b)
 
 if(x>y){
   print("A is a bigger numb")
-}else if{
+}else if(x==y){
   print("both are  equal numb")
 }else{
   print("B is a bigger numb")
   }
 
+score <- 5
+
+ifelse(score > 0.5,("Passed"),("failed"))
+outcome <- ifelse( score > 0.5,"Passed","failed")
+
+outcome
