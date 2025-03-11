@@ -61,5 +61,7 @@ sort(b , decreasing = TRUE)
 
 x[2]
 
+mymatrix <- matrix(1:20 , nrow = 5 , ncol = 4)
 
+mymatrix
   
