@@ -27,3 +27,9 @@ sd(s)
 
 is.na(b)
 colSums(is.na(b))
+rowSums(is.na(b))
+which(is.na(b$petal.width))
+
+remove <- na.omit(b)
+
+b
